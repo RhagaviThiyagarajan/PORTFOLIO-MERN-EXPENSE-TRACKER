@@ -2,7 +2,8 @@
 BackendCode-https://github.com/RhagaviThiyagarajan/PORTFOLIO-EXpense-tracker-Backend.git
 NETLIFY-https://633857b1c51f170a4819cfec--expense-tracker-using-react-redux.netlify.app/
 
-
+verces-backend
+https://portfolio-expensetrcker-backend-node.vercel.app/
 
 Describing the project
 cd exp_tracker/server
