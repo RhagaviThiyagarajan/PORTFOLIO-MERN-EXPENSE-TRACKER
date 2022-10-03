@@ -1,15 +1,15 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
-const baseURL='http://localhost:8000/'
+const baseURL='https://portfolio-expensetrcker-backend-node.vercel.app'
 
 export const apiSlice = createApi({
-    baseQuery : fetchBaseQuery({ baseUrl : baseURL}),
-    endpoints : builder => ({
+    baseQuery : fetchBaseQuery({ baseUrl : baseURL}),//make req to the server,we pass the func to base query
+    endpoints : builder => ({     //to build the query
         // get categories
         getCategories : builder.query({
             // get: 'http://localhost:8000/api/categories'
-            query: () => '/api/categories',
-            providesTags: ['categories']
+            query: () => '/api/categories', // query-makes defaul t get rqeuest
+            providesTags: ['categories']  //datas will be in getcategories
         }),
 
         // get labels
