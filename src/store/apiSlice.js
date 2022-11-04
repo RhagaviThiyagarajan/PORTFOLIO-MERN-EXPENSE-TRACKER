@@ -1,6 +1,6 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
-const baseURL='https://portfolio-expensetrcker-backend-node.vercel.app'
+const baseURL='https://expensestrackernode.herokuapp.com'
 
 export const apiSlice = createApi({
     baseQuery : fetchBaseQuery({ baseUrl : baseURL}),//make req to the server,we pass the func to base query
