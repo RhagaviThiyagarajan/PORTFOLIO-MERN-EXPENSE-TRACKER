@@ -1,7 +1,7 @@
 
 BackendCode using RTK query,Node,Mongodb
 Link-     https://github.com/RhagaviThiyagarajan/PORTFOLIO-expensetracker-front-backend.git
-netlify-  https://mernstack-expensetracker-frontend.netlify.app/
+netlify-  https://main--mernstack-expensetracker-frontend.netlify.app/
 
 verces-backend
 https://portfolio-expensetrcker-backend-node.vercel.app/
