@@ -9,7 +9,7 @@ https://portfolio-expensetrcker-backend-node.vercel.app/
 Describing the project
 cd exp_tracker/server
 
-postman- get-http://localhost:8000/api/categories
+postman- get-https://main--mernstack-expensetracker-frontend.netlify.app/api/categories
 
 [ { "type": "Investment", "color": "#FCBE44" }, { "type": "Investment", "color": "#FCBE44" }, ]
 
