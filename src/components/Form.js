@@ -35,7 +35,7 @@ resetField('amount');
             <select className='form-input' {...register('type')}>
                 <option value="Investment" defaultValue>Investment</option>
                 <option value="Expense">Expense</option>
-                <option value="Savings">Savings</option>
+                <option value="savings">Savings</option>
             </select>
             <div className="input-group">
                 <input type="text" {...register('amount')} placeholder='Amount' className='form-input' />
